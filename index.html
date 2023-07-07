@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa86e8bc42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container">
+        <section class="texts">
+            <h1>Pharetra accumsan tristique leo vivamus <br> curae dui elementum etiam dui</h1>
+            
+            <p>Lorem ipsum maecenas orci curae scelerisque morbi aenean aliquam libero aliquet amet sem habitasse, velit semper augue dictum interdum fringilla commodo himenaeos ut rhoncus vulputate mollis.</p>
+        </section>
+        <section class="form-container">
+            <div class="subscribe-message">
+                <strong>Try it free 7 days</strong><span>then $20 thereafter</span>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" class="error-active" id="first-name" placeholder="Firts name">
+                    <div class="infos-error">
+                        <i class="fa-regular fa-exclamation fa-shake icon-error"></i>
+                        <span class="message-error"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="last-name" placeholder="Last name">
+                    <div class="infos-error">
+                        <i class="fa-regular fa-exclamation fa-shake icon-error"></i>
+                        <span class="message-error"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email">
+                    <div class="infos-error">
+                        <i class="fa-regular fa-exclamation fa-shake icon-error"></i>
+                        <span class="message-error"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Password">
+                    <div class="infos-error">
+                        <i class="fa-regular fa-exclamation fa-shake icon-error"></i>
+                        <span class="message-error"></span>
+                    </div>
+                </div>
+
+                <button id="btn-submit">claim your free trial</button>
+
+                <span class="term-message">
+                    Hac nunc scelerisque cursus varius<a href> Terms and conditions</a>
+                </span>
+            </form>
+        </section>
+    </main>
+    
+    <script src="./JS/app.js"></script>
+    <script src="./JS/validation.js"></script>
+    <script src="./JS/DOM.js"></script>
+</body>
+</html>
